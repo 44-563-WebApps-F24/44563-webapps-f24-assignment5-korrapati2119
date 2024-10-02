@@ -4,7 +4,24 @@
   <title> Desserts </title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+  <style>
+    .image-container,.thumbnail-container{
+      display: felx;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .thumbnail-image {
+      max-width: 100;
+      height: auto;
+      width: 400px;
+      border-radius: 10px;
+    }
+    .dessert-image{
+      max-width: 100px;
+      height: auto;
+      border-radius: 15px;
+    }
+    </style>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
@@ -39,5 +56,15 @@
      <p>EXPLANATION:</p>
      <p class="text-center">..becuase oreo velvet cake is longer in length.so when the browser size is adjusted or resized<br>
     and becomes narrower oreo velvet cake takes more space.thats why this desserts row breaks first..!!</p> 
-</body>
+      <div class="image-container">
+         <img src="rice pudding.jpg" class="dessert-image" alt="rice dessert">
+         <img src="rvc.jpg" class="dessert-image" alt="red velvet">
+         <img src="kheer.jpg" class="dessert-image" alt="kheer">
+      </div>
+      <div class="thumbnail-container">
+      <img src="rice pudding.jpg" class="thumbnail-image">
+      <img src="rvc.jpg" class="thumbnail-image">
+      <img src="kheer.jpg" class="thumbnail-image">
+      </div>
+  </body>
 </html>
