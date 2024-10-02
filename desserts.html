@@ -8,7 +8,6 @@
     .image-container,.thumbnail-container{
       display: felx;
       justify-content: center;
-      ;
       flex-wrap: wrap;
     }
     .thumbnail-image {
@@ -92,19 +91,28 @@
           <tr><td> p </td> <td> pavlova </td> <td> panjagutta </td> <td> Paper Wasp </td></tr>
         </tbody>
       </table>
-      <nav aria-label="main-navigation"> nav bar</nav> 
-     <div class="btn-toolbar" role="toolbar" aria-label="button groups">
-      <div class="btn-group" role="group" aria-label="success button group">
+  
+     <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with group button">
+      <div class="btn-group" role="group" aria-label="button with success">
         <button type="button" class="btn btn-success"> K </button>
         <button type="button" class="btn btn-success"> O </button>
         <button type="button" class="btn btn-success"> R </button>
         </div>
-        <div class="btn-group" role="group" aria-label="alert button group">
+        <div class="btn-group" role="group" aria-label="group with alert">
         <button type="button" class="btn btn-alert"> R </button>
         <button type="button" class="btn btn-alert"> A </button>
         </div>
-        <div class="btn-group" role="group" aria-label="danger button group">
+        <div class="btn-group" role="group" aria-label="group with danger">
         <button type="button" class="btn btn-danger"> P </button>
+        </div>
+        <br>
+        
+        <div class="btn-group" role="group">
+          <button type="button"  class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> choose page </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="basic.html" > BASIC </a></li>
+            <li><a class="dropdown-item" href="advanced.html" > ADVANCED </a></li>
+            </ul>
         </div>
         </div>
       </body>
